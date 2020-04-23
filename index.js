@@ -7,4 +7,4 @@ client.on('ready', () => {
 });
 
 // TODO: get token from discord client to add here
-client.login('token');
+client.login(process.env.CLIENT_TOKEN);
